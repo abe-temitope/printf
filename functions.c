@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * print_char - Prints a char.
- * @types: List a of atguments.
- * @buffer: Buffer array to handle print.
+ * print_char - function that Prints a char.
+ * @types: List of the arguments.
+ * @buffer: Buffer the array to handle print.
  * @flags: Calculates active flags
  * @width: Width.
  * @precision: Precision specification.
@@ -75,8 +75,8 @@ int print_string(va_list types, char buffer[],
 }
 
 /**
- * print_string - Prints a percent(%) sign.
- * @types: List a of arguments
+ * print_string - function that Prints a percent(%) sign.
+ * @types: List of the arguments
  * @buffer: Buffer array to handle pront
  * @flags: Calculates active flags
  * @width: Fet width
@@ -99,7 +99,7 @@ int print_percent(va_list types, char buffer[],
 
 /**
  * print_int - Prints an int.
- * @types: List a of arguments
+ * @types: List of the arguments
  * @buffer: Buffer array to handle pront
  * @flags: Calculates active flags
  * @width: Fet width
@@ -141,8 +141,8 @@ int print_int(va_list types, char buffer[],
 }
 
 /**
- * print_binary - Prints an unsigned number.
- * @types: List a of arguments
+ * print_binary - function that Prints an unsigned number.
+ * @types: List of the arguments
  * @buffer: Buffer array to handle pront
  * @flags: Calculates active flags
  * @width: Fet width
