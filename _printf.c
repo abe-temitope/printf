@@ -3,13 +3,13 @@
 void print_buffer(char buffer[], int *buff_ind);
 
 /**
- * _printf - Print to standard output.
+ * _printf - func that prints to standard output
  * @format: Variable argument to be accepted.
  *
- * Description: This is a custom printf function that returns
- * characters to the stdio, excluding the null byte used to
+ * Description: A custom printf function that returns
+ * characters to stdio, excluding the null byte used to
  * end output to strings.
- * Return: Printed characters.
+ * Return: Printed characters
  */
 int _printf(const char *format, ...)
 {
@@ -56,7 +56,7 @@ int _printf(const char *format, ...)
 }
 
 /**
- * print_buffer - Prints the contents of the buffer if it exist.
+ * print_buffer - func that Prints the contents of buffer if it exist.
  * @buffer: Array of characters.
  * @buff_ind: Index at which to add next char, represents the length.
  *
