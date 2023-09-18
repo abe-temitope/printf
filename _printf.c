@@ -3,7 +3,7 @@
 void print_buffer(char buffer[], int *buff_ind);
 
 /**
- * _printf - func that prints to standard output
+ * _printf - function that prints to standard output
  * @format: Variable argument to be accepted.
  *
  * Description: A custom printf function that returns
@@ -60,7 +60,7 @@ int _printf(const char *format, ...)
  * @buffer: Array of characters.
  * @buff_ind: Index at which to add next char, represents the length.
  *
- * Return: 0
+ * Return: always 0
  */
 void print_buffer(char buffer[], int *buf_ind)
 {
