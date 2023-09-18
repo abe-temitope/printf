@@ -4,12 +4,12 @@ void print_buffer(char buffer[], int *buff_ind);
 
 /**
  * _printf - function that prints to the standard output
- * @format: Variable argument to be accepted.
+ * @format: The variable argument to be accepted.
  *
  * Description: A custom printf function that returns
  * characters to stdio, excluding the null byte used to
  * end output to strings.
- * Return: The rinted characters
+ * Return: The printed characters
  */
 int _printf(const char *format, ...)
 {
