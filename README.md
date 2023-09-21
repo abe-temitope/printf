@@ -1,5 +1,5 @@
 Requirements
-General
+General for the task
 Allowed editors: vi, vim, and emacs
 All your files will be compiled on Ubuntu 20.04 LTS using gcc, using the options -Wall -Werror -Wextra -Pedantic, and -std=gnu89
 All your files should end with a new line
